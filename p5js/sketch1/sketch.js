@@ -2,7 +2,8 @@
 //
 
 function setup() {
-  createCanvas(400, 400);
+  let cnv = createCanvas(600, 600);
+  cnv.parent("sketchHolder")
   background(220);
 }
 
