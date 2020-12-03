@@ -12,8 +12,8 @@
  */
 
 CHIP DMux4Way {
-    IN in, sel[2];  // in,  sel[0],  sel[1]
-    OUT a, b, c, d;  // a, b, c, d
+    IN in, sel[2];
+    OUT a, b, c, d;
 
     PARTS:
     // Put your code here:
